@@ -1,0 +1,1501 @@
+cd Programming/
+git clone https://github.com/Xtron64/Nushell-Config
+sudo nvim /etc/nixos/configuration.nix
+sudo nix-env -iA nixos.fastfetch
+sudo nix-channel add 
+sudo nix-channel --add https://nixos.org/channels/nixos-unstable unstable
+sudo nix-channel --update
+sudo nix-channel --list
+sudo nix-env -iA unstable.fastfetch
+touch ~/Programming/Tasks.md
+cd
+fastfetch --ascii-distro nixos_small
+fastfetch --ascii nixos_small
+fastfetch --distro nixos_small
+fastfetch --ascii_distro nixos_small
+cd Downloads/GitHub/Catppuccin/
+git clone https://github.com/catppuccin/xfce4-terminal
+cd ~/.config/alacritty/
+git clone https://github.com/catppuccin/alacritty
+zellij options --theme catppuccin-mocha
+cd Pictures/Wallpapers/
+git clone https://github.com/Gingeh/wallpapers
+sudo nixos-rebuild switch --upgrade
+cd ~/Programming/
+git clone https://github.com/Xtron64/Neovim-Config
+sudo nix-env -iA nixos.vimPlugins.packer-nvim
+nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\<\n> ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+bash -c "git clone --depth 1 https://github.com/wbthomason/packer.nvim\<\n> ~/.local/share/nvim/site/pack/packer/start/packer.nvim"
+bash
+nvim ~/.config/nvim/lua/xtron64/packer.lua
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade --show-trace
+sudo nixos-rebuild switch --upgrade
+sudo nv
+sudo nixos-rebuild switch --upgrade
+bash -c `[ -d /sys/firmware/efi/efivars ] && echo "UEFI" || echo "Legacy"`
+sudo nix-collect-garbage 
+sudo nixos-rebuild switch --upgrade
+nvim .config/nushell/startup.nu
+nvim ~/.config/nvim/lua/xtron64/packer.lua
+nvim ~/.config/alacritty/
+nvim ~/.config/fastfetch-config
+cd ~/Downloads/GitHub/Catppuccin/
+git clone https://github.com/catppuccin/plank
+mkdir ~/Programming/Bougz-NixOS/Machines/batcave/NixOS-Config
+cp /etc/nixos/configuration.nix ~/Programming/Bougz-NixOS/Machines/batcave/NixOS-Config/
+ln -s ~/.config/conky/mocha.conf ~/.conkyrc
+conky
+python
+sudo nix-env -iA nixos.python
+sudo nix-env -iA nixos.python311
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade
+/home/xtron64/Pictures/Wallpapers/*/nix-*
+ls ~/Pictures/Wallpapers/* | rg nix
+~/Pictures/Wallpapers/*/nixos.png
+ristretto ~/Pictures/Wallpapers/*/nixos.png
+sudo nixos-rebuild switch --upgrade
+rm ~/.config/rofi/config.rasi.backup
+sudo nixos-rebuild switch --upgrade
+bash
+nvim ~/.config/nvim/lua/xtron64/packer.lua
+python
+sudo cp /home/xtron64/.config/nvim/* /root/.config/nvim/
+sudo cp /home/xtron64/.config/nvim /root/.config/
+sudo cp /home/xtron64/.config/nvim /root/.config/ -r
+sudo nvim /etc/nixos/configuration.nix
+sudo bash
+sudo nvim /root/.config/nvim/lua/xtron64/packer.lua
+lsblk
+sudo nixos-rebuild switch --upgrade-all
+sudo cp /home/xtron64 /dev/sda3/
+sudo cp /home/xtron64 /dev/sda3/ -r
+lsblk
+sudo mount /dev/sda3 /mnt/home
+sudo mkdir /mnt/home
+sudo mkdir /mnt/
+sudo mkdir /mnt/home
+sudo mount /dev/sda3 /mnt/home
+sudo cp /home/xtron64 /dev/sda3/ -r
+sudo cp /home/xtron64 /mnt/home/ -r
+bat /etc/nixos/configuration.nix
+ls /dev/sda3
+ls /dev/sda3/
+lsblk
+mnt /dev/sda3 /mnt/home
+sudo mount /dev/sda3 /mnt/home
+ls /mnt/home/xtron64/
+sudo ls /mnt/home/xtron64/
+sudo ls /mnt/home/xtron64/ -a
+sudo nvim /etc/nixos/configuration.nix
+mount | grep btrfs
+lsblk
+lsblk -h
+lsblk partuuid
+lsblk /dev/sda3
+lsblk --list
+cd ~/Downloads/GitHub/Catppuccin/
+mkdir ~/Downloads/GitHub/Catppuccin/
+cd ~/Downloads/GitHub/Catppuccin/
+git clone https://github.com/catppuccin/plank
+sudo cp /home/xtron64/.config/nvim /root/.config/ -r
+sudo bash
+sudo nvim /etc/nixos/configuration.nix
+sudo nvim /root/.config/nvim/lua/xtron64/packer.lua
+ristretto /home/xtron64/Pictures/Wallpapers/Nord/nixos.png
+sudo nixos-rebuild switch --upgrade-all
+█████████
+██████████████████
+███████████████████████████
+████████████████████████████████████
+█████████████████████████████████████████████
+██████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████
+██████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+echo "echo hi" | save hihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihi.sh
+chmod +x hihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihi.sh
+./hihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihi.sh
+rm hihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihi.sh
+help "os error 36"
+help os error 36
+help error
+help os
+help 36
+help nu
+help nushell
+help alias
+help abbr
+abbr
+help alias
+help aka
+help fn
+help func
+help function
+tmux
+nix-shell -i tmux
+nix-shell tmux
+nix-shell -i nixos.tmux
+nix-shell -A nixos.tmux
+man nix-shell
+nix-shell --command tmux
+man nix-shell
+nix-shell --package tmux
+<\n><\n><\n><\n><\n><\n><\n><\n><\n><\n><\n><\n>
+btop
+bat ~/.config/zellij/
+bat ~/.config/zellij/config.kdl
+sudo nixos-rebuild switch --upgrade-all
+ls ~/.config/zellij/config.kd
+ls ~/.config/zellij/
+ls ~/.config/zellij/config.kdl
+ls ~/.config/rofi/
+bat ~/.config/rofi/config.rasi
+cd ~/Programming/
+mkdir ~/Programming
+cd ~/Programming/
+sudo nix-collect-garbage -d
+sudo nix-collect-garbage
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/configuration.nix
+sudo nvim /etc/nixos/configuration.nix
+cd ~/Downloads/GitHub/Catppuccin/
+git clone https://github.com/Gingeh/wallpapers
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+ln -s ~/.config/conky/mocha.conf ~/.conkyrc
+sudo mkdir /mnt/Shared-Drive
+sudo mkdir /mnt
+sudo mkdir /mnt/Shared-Drive
+sudo nvim /etc/nixos/configuration.nix
+bat /etc/nixos/hardware-configuration.nix
+bat /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/hardware-configuration.nix
+bat /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/hardware-configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/hardware-configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+man nixos-rebuild
+sudo nixos-rebuild boot --upgrade-all
+cd ~/Downloads/GitHub/Catppuccin/
+git clone https://github.com/catppuccin/bat
+cd bat/
+bash
+bat /etc/nixos/hardware-configuration.nix
+bat --list-themes
+bat --list-themes | rg cat
+bat --list-themes | rg Cat
+ln -s ~/.config ~/Configs
+btop
+bat /etc/nixos/configuration.nix
+bat /etc/nixos/configuration.nix | rg packer
+nvim ~/.config/nvim/lua/xtron64/packer.lua
+sudo nix-env -iA nixos.nodePackages.npm
+sudo nix-env -iA nixos.lua
+nvim ~/.config/nvim/lua/xtron64/packer.lua
+sudo nvim ~/.config/nvim/lua/xtron64/packer.lua
+sudo nix-collect-garbage -d
+sudo nixos-rebuild boot --upgrade-all
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+bat ~/.config/rofi/config.rasi
+homectl -h
+homectl update xtron64
+homectl update xtron64 -h
+man homectl
+bat ~/.config/zellij/config.kdl
+zellij options --theme catppuccin-mocha
+nvim ~/.config/alacritty/
+zellij -h
+nvim ~/.config/zellij/config.kdl
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+steam
+steam -h
+steam --help
+man steam
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/
+ls
+cd I-Love-Nesting/
+python3 ~/Programming/I-Love-Nesting/python_nesting/main.py
+python ~/Programming/I-Love-Nesting/python_nesting/main.py
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+python3 ~/Programming/I-Love-Nesting/python_nesting/main.py
+sudo nix-collect-garbage -d
+ls ~/.config/nushell/
+cp ~/.cache/starship/init.nu ~/.config/nushell/starhsip-nu-config.nu
+nvim ~/.config/nushell/starhsip-nu-config.nu
+nvim ~/.config/nushell/config.nu
+nvim ~/.config/nushell/starhsip-nu-config.nu
+python3 ~/Programming/I-Love-Nesting/python_nesting/main.py
+python3 ~/Programming/I-Love-Nesting/python_nesting/main.p
+python3 ~/Programming/I-Love-Nesting/python_nesting/main.py
+nix-shell --package ipython
+nix-shell -iA ipython
+nix-shell -A ipython
+nix-shell -p python311Packages.ipython
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+nvim ~/.config/nushell/config.nu
+cd I-Love-Nesting/
+cd Downloads/GitHub/Catppuccin/
+pipers
+cmatrix
+nix-shell -p rmatrix
+nix-shell -p r-matrix
+nix-shell -p cmatrix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+cd Programming/
+cd Python-Practice/
+mkdir Is-Prime_py
+cd Is-Prime_py/
+git init
+mkdir src
+bat ~/Programming/*/*/*.py
+nvim src/main.py
+sudo
+sudo -K
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nix-env -h
+sudo nix-env --help
+sudo nix-env -iA nixos.steam
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/configuration.nix | rg unfree
+bat /etc/nixos/configuration.nix | rg Unfree
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+bat /etc/nixos/configuration.nix | rg nu
+cd ~/Programming/Python-Practice/is-even/
+python3 src/main.py
+ipython
+ipython src/main.py
+python3 src/main.py
+../Is-Prime_py/
+ls -a
+rm -rf .git
+python3 src/main.py
+mkdir tests
+python3 src/main.py
+../hello_world/
+../../Snekkie-Terminal/snekkie_terminal_py/
+python3 src/main.py
+cd ~/Programming/Snekkie-Terminal/snekkie_terminal_py/
+python3
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+python3
+sudo nix-env -iA nixos.python311Packages.pysimplegui
+python3
+pip3 install pysimplegui
+pip install pysimplegui
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+pip install pysimplegui
+python3.11 -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
+sudo python3 -m pip install --upgrade pip
+sudo nix-env -iA nixos.python311
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo -k
+sudo -K
+sudo -s
+sudo -
+sudo -S
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+cd ~/Programming/Snekkie-Terminal/snekkie_terminal_py/
+python3 src/main.py
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+cd ~/Programming/Snekkie-Terminal/snekkie_terminal_py/
+python3
+python3 src/main.py
+nixos-rebuild -h
+nixos-rebuild --help
+cd ~/Programming/Snekkie-Terminal/snekkie_terminal_py/
+bat src/main.py
+python3 src/universal_constants/__init__.py
+python3
+cd src/universal_constants/
+python3
+cd ..
+python3
+ls
+cd universal_constants/
+python3
+cd ..
+python3
+sudo rm -rf __pycache__/
+nvim src/main.py
+python3
+bat main.py
+python3 main.py
+pylint
+bat main.py
+python3 main.py
+cd src/
+python3 main.py
+python3
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+cd ~/Programming/Snekkie-Terminal/snekkie_terminal_py/src
+ls
+nvim main.py
+cd ~/Configs/nvim
+diff ~
+diff ~ ~/Configs/
+dif . ~/Programming/Neovim-Config/
+diff . ~/Programming/Neovim-Config/
+nvim init.lua
+nvim .
+sudo nvim /etc/nixos/configuration.nix
+nvim lua/xtron64/lazy.lua
+cd
+rm -rf ~/.config/nvim/; cp -r ~/Programming/Neovim-Config/ ~/.config/nvim/
+mkdir ~/.config/nvim/; cp -r ~/Programming/Neovim-Config/ ~/.config/nvim/
+nvim
+sudo rm -rf ~/.config/nvim/Neovim-Config/
+nvim
+bat ~/Programming/Neovim-Config/lua/xtron64/packer.lua
+nvim main.py
+cd ~/Programming/Snekkie-Terminal/snekkie_terminal_py/src
+sudo -S
+sudo -s
+sudo -K
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+nix-channel --add https://channels.nixos.org/nixos-23.11 nixos
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-channel --add https://channels.nixos.org/nixos-23.11 nixos
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+nvim ~/.config/nushell/config.nu
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-23.11.tar.gz home-manager
+sudo nix-channel --update
+sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-23.11.tar.gz home-manager
+sudo nix-channel --update
+sudo nixos-rebuild switch --upgrade-all
+zellij
+sudo nix-env -iA unstable.zellij
+zellij
+bat /tmp/zellij-1000/zellij-log/zellij.log
+bat /tmp/zellij-1000/zellij-log/zellij.log|rg error
+nvim ~/.config/nushell/env.nu
+nvim ~/.config/alacritty/alacritty.yml
+rofi
+rofi -show drun
+sudo ln -h
+sudo ln --help
+man ln
+ln -s ~/.config ~/Configs
+ln -s ~/.config/conky/mocha.conf ~/.conkyrc
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+fd steam
+cd ~/Programming/
+git clone https://github.com/Xtron64/Neovim-Config
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\<\n> ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+bash
+exit
+nvim ~/.config/nvim/lua/xtron64/packer.lua
+nvim
+sudo cp -r ~/.config/nvim /root/config/
+sudo nvim /etc/nixos/configuration.nix
+nvim
+sudo cp -r /home/xtron64/.config/nvim /root/config/
+sudo cp -r /home/xtron64/.config/nvim /root/.config/
+sudo nvim /etc/nixos/configuration.nix
+sudo nvim /root/.config/nvim/lua/xtron64/packer.lua
+sudo nvim /etc/nixos/configuration.nix
+nvim
+ls
+nvim
+fzf steam
+fzf --help
+fzf
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+nvim ~/.config/fastfetch-config
+sudo nixos-rebuild switch --upgrade-all
+rofi-mpd 
+rofi-power-menu 
+rofi-
+rofi-pulse-select 
+rofi -show top
+rofi -show calc
+bat /etc/nixos/configuration.nix | rg rofi
+sudo nixos-rebuild switch --upgrade-all
+rofi -show
+rofi -show modi
+rofi -show keys
+rofi -h
+rofi -show vpn
+rofi -show mmpf
+rofi -show mpd
+rofi -show bluetooth
+rofi -show window
+rofi -show windowcd
+sudo nix-collect-garbage -d
+exit
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+flameshot -h
+sudo nix-collect-garbage
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/configuration.nix | rg snes
+bat /etc/nixos/configuration.nix
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nix-collect-garbage
+sudo -S
+sudo -K
+exit
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nix-collect-garbage
+exit
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo thunar
+help mupen64plus
+mupen64plus -h
+mupen64plus --fullscreen `Games/ROMs/Smash64/Super Smash Bros. (USA).z64`
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+perf
+linux_perf
+cd Music/
+ls
+ls *
+cd Music/
+ls
+mkdir All
+cd All
+ln -h
+ln --help
+ln -s `~/Music/Other/Clovis Reyes - Fluxxwave (Slowed).flac` 'Clovis Reyes - Fluxxwave (Slowed).flac'
+ln -s `~/Music/Other/Clovis Reyes - Fluxxwave.flac` 'Clovis Reyes - Fluxxwave.flac'
+ln -s `~/Music/Other/akiaura, LONOWN, STM - Sleepwalker.flac` 'akiaura, LONOWN, STM - Sleepwalker.flac'
+ln -s `~/Music/YEAT/YEAT - Fifty (prod. R3DD x SHARKBOY) - Super Slowed + Reverb.flac` 'YEAT - Fifty (prod. R3DD x SHARKBOY) - Super Slowed + Reverb.flac'
+ln -s `~/Music/YEAT/YEAT - Fifty (prod. R3DD x SHARKBOY).flac` 'YEAT - Fifty (prod. R3DD x SHARKBOY).flac'
+ln -s `~/Music/YEAT/YEAT - Overloaded (prod. ANTAGONIST).flac` 'YEAT - Overloaded (prod. ANTAGONIST).flac'
+ln -s `~/Music/YEAT/YEAT - Wat U Want 2 (prod. SKY).flac` 'YEAT - Wat U Want 2 (prod. SKY).flac'
+ln -s `~/Music/Little Dark Age/*` .
+ls
+ln -s `~/Music/After Dark/*` .
+ln -s ~/Music/VØJ/* .
+ls ~/Music/*
+ls ~/Music/All
+sudo nixos-rebuild switch --upgrade-all
+cd ~/Documents/Markdown/
+ls
+cd Personal/
+ls
+glow `Custom Maths Syntax Brainstom.md`
+cd ~/Music/
+rm All/*
+ln -s ~/Music/*/* All/
+ls All
+file `All/Clovis Reyes - Fluxxwave (Slowed).flac`
+ln -s ~/Music/*/* ~/Music/All/.
+ln -s `~/Music/After Dark/`* ~/Music/All/.
+ln -s `~/Music/Little Dark Age/`* ~/Music/All/.
+ln -s `~/Music/Little Dark Age/*` ~/Music/All/.
+ln -s `~/Music/After Dark/`* ~/Music/All/.
+ln -s `~/Music/After Dark/*` ~/Music/All/.
+ln - `~/Music/After Dark/*` ~/Music/All/.
+ln -S `~/Music/After Dark/*` ~/Music/All/.
+ln -s `~/Music/After Dark/.` ~/Music/All/.
+ln -s `~/Music/After Dark/*` ~/Music/All/.
+ln -s `~/Music/After Dark/` ~/Music/All/.
+ln -s `~/Music/After Dark/Mr Kitty - After Dark.flac` ~/Music/All/.
+ln -s `~/Music/Little Dark Age/*` ~/Music/All/.
+ln -s `~/Music/Little Dark Age/*Little*` ~/Music/All/.
+cd ~/Music/All/
+ln -s ~/Music/*/* ~/Music/All/.
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/
+cd Python-Practice/
+ls
+mkdir LCM_and_HCF_calc_py
+cd LCM_and_HCF_calc_py/
+ls ../.
+ls ../*
+mkdir src
+cd src
+nvim main.py
+cd
+sudo nixos-rebuild switch --upgrade-all
+bat ~/.config/nushell/history.txt
+tail ~/.config/nushell/history.txt
+tail -h
+tail --help
+tail --lines=10 ~/.config/nushell/history.txt
+tail --lines=15 ~/.config/nushell/history.txt
+tail --lines=20 ~/.config/nushell/history.txt
+rm ~/Music/All/*
+ln -s ~/Music/*/* ~/Music/All/.
+cd Music/All/
+tail --lines=25 ~/.config/nushell/history.txt
+tail --lines=30 ~/.config/nushell/history.txt
+ln -s ~/Music/*/* .
+rm *
+ln -s ~/Music/*/* .
+ls
+mkdir Scripts
+ls Scripts/
+nvim ~/Scripts/Bougz-Music-Recatalogue-All.nu
+nu Scripts/Bougz-Music-Recatalogue-All.nu
+nvim ~/Scripts/Bougz-Music-Recatalogue-All.nu
+nu Scripts/Bougz-Music-Recatalogue-All.nu
+ls
+sudo nixos-rebuild switch --upgrade-all
+cd ~/Programming/Python-Practice/LCM_and_HCF_calc_py/
+python3 src/main.py
+cd Scripts/
+ls
+bat ~/Scripts/*.nu
+sudo nixos-rebuild switch --upgrade-all
+cd Downloads/GitHub/Catppuccin/
+git clone https://github.com/catppuccin/bat
+mkdir -p "$(bat --config-dir)/themes"
+bash
+cd
+bat ~/Scripts/*.nu
+ls ~/.config/bat/
+ls ~/.config/bat/themes/
+nvim ~/.config/nushell/aliases.nu
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat ~/Scripts/*.nu
+bat ~/Scripts/*
+bat ~/Programming/*/*/*.py
+cd ~/Programming/Snekkie-Adventure/snekkie_adventure_py/
+ls
+mkdir src
+mv *.py src/
+ls
+mv *.json src/
+ls
+cd src/
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+cd ~/Programming/Snekkie-Adventure/snekkie_adventure_py/src/
+mv demons.py elfs.py goblins.py humans.py orks.py classes/
+cd ~/Programming/Snekkie-Adventure/snekkie_adventure_py/src/
+python3 main.py
+ls classes/
+python3 main.py
+bat main.py
+bat ~/Programming/Python-Practice/LCM_and_HCF_calc_py/src/main.py
+bat *
+bat *.py */*.py
+bat main.py
+mv characterCreation.py character_setup/
+bat main.py
+bat input_functions/int_input.py
+python3
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+cd Programming/Python-Practice/
+mkdir finite_sum_calc_py
+mkdir finite_sum_calc_py/src
+cd finite_sum_calc_py/src/
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/Python-Practice/finite_sum_calc_py/src/
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nix-collect-garbage
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+python3.11 lol.py
+sudo nixos-rebuild switch --upgrade-all
+nvim lol2.py
+cd ~/.config/nvim/
+ls
+sudo nixos-rebuild switch --upgrade-all
+notify-send Done
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+nvim init.lua
+nvim lua/xtron64/lazy.lua
+bat ~/.config/nvim/lua/xtron64/packer.lua
+bat ~/.config/nvim/lua/xtron64/lazy.lua
+nvim lua/xtron64/lazy.lua
+bat ~/.config/nvim/after/plugin/colours.lua
+nvim
+nvim lua/xtron64
+nvim
+bat ~/Programming/Neovim-Config/lua/xtron64/packer.lua
+nvi
+nvim
+bat ~/Programming/Python-Practice/LCM_and_HCF_calc_py/
+bat ~/Programming/Python-Practice/LCM_and_HCF_calc_py/src/main.py
+python3
+python3 lol2.py
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/
+git clone https://github.com/Xtron64/Python-Practice
+rm Python-Practice/
+rm Python-Practice/ -r
+git clone https://github.com/Xtron64/Python-Practice
+rm -r Xtron64/
+git clone https://github.com/Xtron64/Xtron64
+cd Bougz-NixOS/
+git push
+nvim
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/
+Snekkie-Flashcards/
+ls
+cd *_py
+cd snekkie_flashcards_py/
+ls
+nvim
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/Snekkie-Flashcards/snekkie_flashcards_py/src/
+ls
+nvim
+nvim
+python3.12 
+cd Programming/Snekkie-Flashcards/snekkie_flashcards_py/src/
+cd input_functions/
+python3.12 
+cd Programming/Snekkie-Flashcards/snekkie_flashcards_py/src
+python3.12 
+cd input_functions/
+python3.12 
+sudo nixos-rebuild switch --upgrade-all
+pipesz 
+btop 
+nvim
+bash
+bat Scripts/*.nu
+cur_ver = cat ~/.lol-ver-py
+$cur_ver = cat ~/.lol-ver-py
+let $cur_ver = cat ~/.lol-ver-py
+print $cur_ver
+nvim ("lol" + $cur_ver + ".py")
+nvim Scripts/lol-gen-py.nu
+cd Programming/Snekkie-Flashcards/snekkie_flashcards_py/src/input_functions/
+nu Scripts/lol-gen-py.nu
+nvim Scripts/lol-gen-py.nu
+nu Scripts/lol-gen-py.nu
+nvim Scripts/lol-gen-py.nu
+nu Scripts/lol-gen-py.nu
+sudo nixos-rebuild switch --upgrade-all
+peroxide 
+sudo peroxide 
+sudo nixos-rebuild switch --upgrade-all
+hydroxide 
+hydroxide auth snekkieboi@proton.me
+hydroxide 
+nvim .bridge-password
+hydroxide 
+hydroxide status
+hydroxide --help
+sudo nixos-rebuild switch --upgrade-all
+sudo rm -rf /root/.config/nvim/*; sudo cp /home/xtron64/.config/nvim/* /root/.config/nvim/
+sudo rm -rf /root/.config/nvim/*; sudo cp /home/xtron64/.config/nvim/* /root/.config/nvim/ -r
+sudo nvim
+sudo nvim /etc/nixos/configuration.nix
+cd ~/Programming/BASH-Config
+cp fedora_config/* nixos_config/
+rg
+z
+help cd
+cd --help
+alias cd
+bat ~/.config/nushell/aliases.nu | rh cd | bat
+bat ~/.config/nushell/aliases.nu | rg cd | bat
+bat ~/.config/nushell/aliases.nu | rg cd
+bat ~/.config/nushell/aliases.nu | bat
+exa
+eza
+help exa
+help eza
+exa --help
+sd
+dust
+fd
+find
+ps
+bat ~/.config/nushell/startup.nu
+bat ~/Programming/C-Practice/hello_world_c/src/main.c
+cd ~/Programming/C-Practice/quick_quiz_c/src/
+gcc --help
+help gcc
+exec nu
+cd ..
+cd
+cd ~/Programming/C-Practice/data_info_c/src/
+gcc --help
+gcc
+man gcc
+batman gcc
+man gcc
+cd ..
+gcc -o compiled/data_info_c src/main.c
+./compiled/data_info_c
+gcc -o compiled/data_info_c src/main.c
+./compiled/data_info_c
+gcc -o compiled/data_info_c src/main.c
+./compiled/data_info_c
+gcc -o compiled/data_info_c src/main.c
+./compiled/data_info_c
+gcc -o compiled/data_info_c src/main.c
+./compiled/data_info_c
+gcc -o compiled/data_info_c src/main.c
+./compiled/data_info_c
+mousepad src/main.c
+gcc -o compiled/data_info_c src/main.c
+./compiled/data_info_c
+cd ~/Programming/C-Practice/data_info_c/src/
+cd ..
+nvim src/main.c
+cd ~/Programming/Snekkie-Flashcards/snekkie_flashcards_py/src/
+cd ~/Programming/Snekkie-Flashcards/snekkie_flashcards_py/src
+mousepad input_functions/multi_choice_input.py
+python3.12 input_functions/multi_choice_input.py
+mousepad main.py
+python3.12 main.py
+ls input_functions/
+python3.12 main.py
+nvim
+mousepad ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+python3.12 main.py
+bat input_functions/multi_choice_input.py
+python3.12 
+python3.12 main.py
+bat input_functions/multi_choice_input.py
+python3.12 main.py
+bat
+ls
+bat input_functions/multi_choice_input.py
+python3.12 show_helpme/show_helpme.py
+python3.12 main.py
+python3.12
+python3.12 main.py
+bat input_functions/multi_choice_input.py
+python3.12 main.py
+bat input_functions/multi_choice_input.py
+python3.12 main.py
+mv init_curses.py curses/
+python3.12 main.py
+python3.12 input_functions/multi_choice_input.py
+python3.12 curses_funcs/centre_text.py
+python3.12 main.py
+bat input_functions/multi_choice_input.py
+python3.12 main.py
+mousepad input_functions/int_input.py
+python3.12 main.py
+mousepad curses_funcs/centre_text.py
+python3.12 main.py
+bat ~/Pictures/ASCII/Fastfetch/Tux.asc show_helpme/helpme.txt
+bat ~/Pictures/ASCII/Fastfetch/Tux.asc show_helpme/helpme.txt | save --prepend show_helpme/helpme.txt
+bat ~/Pictures/ASCII/Fastfetch/Tux.asc show_helpme/helpme.txt | save show_helpme/helpme.txt
+bat ~/Pictures/ASCII/Fastfetch/Tux.asc show_helpme/helpme.txt | save show_helpme/helpme.txt -f
+python3.12 main.py
+git lfs install --force
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+python3.12 main.py
+sudo nix-collect-garbage -d
+python3.12 main.py
+clear; fastfetch
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+distrobox 
+distrobox-init 
+distrobox-create 
+distrobox-create -h
+mkdir .distrobox
+mkdir .distrobox/archlinux
+sudo distrobox-create -i quay.io/toolbx/arch-toolbox:latest -n archlinux -p -H ~/.distrobox/archlinux 
+distrobox-create -i quay.io/toolbx/arch-toolbox:latest -n archlinux -p -H ~/.distrobox/archlinux --root
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+distrobox-create -i quay.io/toolbx/arch-toolbox:latest -n archlinux -p -H ~/.distrobox/archlinux --root
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+ssh -o StrictHostKeyChecking=no watch.ascii.theater
+sudi -s
+sudo -s
+sudo -S
+nvim .conkyrc
+nvim ~/.config/nushell/startup.nu
+glow
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-env -iA nixos.lutris
+mkdir .config/nixpkgs
+nvim ~/.config/nixpkgs/config.nix
+sudo nix-env -iA nixos.lutris
+sudo cp -r ~/.config/nixpkgs /root/.config
+sudo nix-env -iA nixos.lutris
+sudo nix-env --uninstall nixos.lutris
+sudo nix-env --uninstall lutris
+sudo nixos-rebuild switch --upgrade-all
+adb
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+wpa_cli
+sudo dmesg
+dmidecode | less
+dmidecode
+sudo -E hw-probe -all -upload
+bash
+sudo nixos-rebuild switch --upgrade-all
+.com.system76.F
+com.system76.FirmwareManager 
+sudo com.system76.FirmwareManager 
+sudo nixos-rebuild switch --upgrade-all
+sudo firmware-updater 
+sudo nixos-rebuild switch --upgrade-all
+inteltool 
+sudo inteltool 
+sudo nixos-rebuild switch --upgrade-all
+nix-shell -p phoronix-test-suite
+nix-shell -p unixbench
+nix-shell -p iperf
+systemd-analyze plot | save boot.svg
+cryptsetup
+nix-shell -p cryptsetup
+neofetch
+sudo nixos-rebuild switch --upgrade-all
+sudp nix-env -iA unstable.pfetch
+sudo nix-env -iA unstable.pfetch
+sudo nix-env --uninstall pfetch
+sudo nixos-rebuild switch --upgrade-all
+nix-shell -p neofetch
+sudo nixos-rebuild switch --upgrade-all
+nvim
+virsh net-autostart defaul
+sudo virsh net-autostart default
+virsh net-start default
+sudo virsh net-start default
+cd Programming
+rm -rf Neovim-Config/
+git clone https://github.com/Xtron64/Neovim-Config
+cd Neovim-Config/
+ls
+rm -rf ./*
+ls -a
+cp ~/.config/nvim/ ~/Programming/Neovim-Config/
+cp -r ~/.config/nvim/ ~/Programming/Neovim-Config/
+ls
+git push
+git -h
+man git
+man gittutotorial.7
+man gittutotorial
+man git
+git-config
+git config
+gh 
+gh auth
+gh auth login
+sudo nvim /etc/nixos/configuration.nix
+gh auth login
+sudo nixos-rebuild switch --upgrade-all
+gh auth login
+gh 
+git push
+git -h
+git add *
+git push
+git -h push
+git push -f
+git pull -h
+git -h pull
+git -h commit
+git commit -a --message="Change from Packer.nvim to Lazy.nvim"
+git config --global user.email "snekkieboi@pm.me"
+git config --global user.name "Xtron64"
+git commit -a --message="Change from Packer.nvim to Lazy.nvim"
+git push -f
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+sudo btrfs filesystem show /home
+sudo btrfs filesystem show /
+sudo btrfs filesystem show /boot
+sudo btrfs filesystem show /swapfile
+sudo nixos-rebuild switch --upgrade-all
+journalctl -xe
+sudo nixos-rebuild switch --upgrade-all
+sudo snapper-gui 
+sudo nixos-rebuild switch --upgrade-all
+sudo thunar
+sudo smartctl -H /dev/nvme0n1
+nix-shell -P smartctrl
+nix-shell -p smartctrl
+nix-shell -p smartmontools
+nix-shell -p nvme
+nix-shell -p nvme-cli
+nix-shell -p kdiskmark
+nix-shell -p diskscan
+nix-shell -p gdu
+nix-shell -p geekbench
+sudo nixos-rebuild switch --upgrade-all
+fzf md
+fzf ".md"
+fzf
+fzf | slippy --theme=darl
+fzf | slippy --theme=dark
+slippy --theme=dark Configs/nvim/README.md
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/configuration.nix | eg nush
+bat /etc/nixos/configuration.nix | rg nush
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/
+ls
+cd My-Shell-Scripts/
+ls
+./Navigate.sh
+Navigate.sh
+bash Navigate.sh
+cd; bash Navigate.sh
+cd; bash ~/Programming/My-Shell-Scripts/Navigate.sh
+fd
+cd Programming/My-Shell-Scripts/
+source CSetup.nu
+csetup
+ls -a
+rm src/
+rm src/ -r
+rm compiled/ -r
+rm tests/ -r
+mkdir bougz-code-tools
+mv bougz-code-tools/ ../
+cd ..
+cd bougz-code-tools/
+git init
+mkdir nu bash
+bat ../My-Shell-Scripts/PySetup.sh
+sudo nixos-rebuild switch --upgrade-all
+blueman-services --help
+sudo nixos-rebuild switch --upgrade-all
+sudo systemctrl restart bluetooth
+sudo systmctrl restart bluetooth
+sudo nixos-rebuild switch --upgrade-all
+appimage-run Applications/guiscrcpy-v2023.1.1.dev.m.glibc2.35-x86_64.AppImage
+appimage-run Applications/io.srevinsaju.guiscrcpy.AppImage
+nix-shell -p python38
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+xwaylandvideobridge 
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+pactl info
+pavucontrol 
+cd Downloads/
+chmod +x virtmic
+ls
+./virtmic
+bash
+sudo flatpak install de.shorsh.discord-screenaudio
+sudo nixos-rebuild switch --upgrade-all
+bash
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+cd Downloads/
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+which virtiofsd
+cd ~/Programming/Bougz-NixOS/
+ls
+cd Machines/
+ls
+mv -r batcave-nixos batcave
+mv batcave-nixos batcave
+ls
+cd batcave/
+ls
+ls *
+mkdir SetupScripts
+ls
+cd SetupScripts/
+bat `~/Documents/Stuff I had to setup.md`
+ls ~
+ls ~/Documents/
+ls Downloads
+ls ~/Downloads
+mkdir ~/.bougz-nixos
+mkdir ~/.bougz-nixos/settings
+mkdir ~/.bougz-nixos/info
+touch ~/.bougz-nixos/info/all_directories_setup.true
+mv ~/.bougz-nixos/info/all_directories_setup.true ~/.bougz-nixos/info/all_directories_setup
+ls ~
+ls ~/Downloads/
+ls ~/Documents/MicroSoft/
+ls `~/Documents/Open Document Fomat/`
+ls ~
+ls ~/Pictures/
+ls ~/Videos/
+flatpak help
+flatpak --help
+flatpak list
+sudo flatpak remove discord-screenaudio
+sudo nixos-rebuild switch --upgrade-all
+flatpak list
+sudo flatpak update
+nix-shell -p neofetcj
+nix-shell -p neofetch
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nix-collect-garbage
+sudo nixos-rebuild switch --upgrade-all
+ping google.com
+sudo nixos-rebuild switch --upgrade-all
+bat ~/Configs/rofi/config.rasi
+bat ~/Configs/rofi/catppuccin-mocha-custom.rasi
+ls ~/.local/share/applications
+bat ~/.local/share/applications/*
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat ~/Configs/rofi/config.rasi ~/Configs/rofi/catppuccin-mocha-custom.rasi
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat ~/Configs/rofi/config.rasi ~/Configs/rofi/catppuccin-mocha-custom.rasi
+nvim ~/.local/share/applications/discord-455712169795780630.desktop
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+clear; fastfetch
+nvim ~/Configs/fastfetch-config
+sudo nixos-rebuild switch --upgrade-all
+python3.12 *.py
+nvim
+fastfetch
+sudo nixos-rebuild switch --upgrade-all
+cd ~/Programming/Bougz-NixOS/
+ls
+cd ..
+ls
+cd ~/Programming/Bougz-NixOS/
+cd Machines/
+ls
+cd batcave/
+ls
+mv SetupScripts Setup-Scripts
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/configuration.nix | rg gnome
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+cd ~/.lunarclient/
+ls
+ls *
+ls */*
+rm settings/game/accounts.json
+sudo nixos-rebuild switch --upgrade-all
+ls Configs/conky
+bat Configs/conky/mocha.conf
+nvim Configs/conky/mocha.conf
+sudo nixos-rebuild switch --upgrade-all
+cd Downloads/
+ls
+mkdir Catppuccin
+cd Catppuccin/
+ls
+cd ..
+rm Catppuccin/
+cd GitHub/
+ls
+git clone https://github.com/yeyushengfan258/We10X-icon-theme/tree/master
+git clone https://github.com/yeyushengfan258/We10X-icon-theme
+cd We10X-icon-theme/
+ls
+bash
+bash install.sh
+cd Configs/conky/
+ls
+nvim mocha.conf
+cd Configs/conky/
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+cd Configs
+ls
+cd polybar/
+ls
+
+pid
+sudo nixos-rebuild switch --upgrade-all
+cd Configs/polybar/
+ls
+nvim config.ini
+nvim Configs/polybar/config.ini
+sudo nixos-rebuild switch --upgrade-all
+exedc nu
+mkdir teach_py
+cd teach_py/
+ls
+py main.py
+python main.py
+nvim main.py
+cd ~/Programming/Snekkie-Flashcards/snekkie_flashcards_py/src
+python main.py
+nvim
+python main.py
+fzf
+bat 
+bat ~/Programming/*/*/*.py | rg list
+bat ~/Programming/*/*/*.py
+bat ~/Programming/*/*.py | rg list
+pytho3
+cd ~/Programming/Snekkie-Flashcards/snekkie_flashcards_py/src
+cd ~/teach_py/
+python3 main.py
+python3 2018_p2.py
+sudo nixos-rebuild switch --upgrade-all
+polybar 
+cd Downloads/GitHub/
+cd Catppuccin/
+git clone https://github.com/catppuccin/xfce4-terminal
+fc-list
+fc-list | rg fira
+fc-list | rg fira | rg bold
+fc-list | rg fira | rg regular
+fc-list | rg fira
+fc-list | rg fira, regular
+fc-list | rg fira, rg regular
+fc-list | rg fira | bat | rg regular
+fc-list | rg fira | bat
+fc-list --help
+fc-list -b
+fc-list -b fira
+fc-list -b | rg fira
+fc-list -b | rg fira | bat
+bat /nix/store/*polybar*/share/doc/polybar/examples/config.ini
+sudo nixos-rebuild switch --upgrade-all
+fc-query 
+fc-query material
+fc-list -b | rg material | bat
+fc-list | rg material | bat
+fc-list | rg jetbrains
+fc-list | rg awesome
+fc-list | rg fira | bat
+fc-list | rg fira | save lol.txt
+bat lol.txt | rg bold
+bat lol.txt | rg Bold
+bahs
+kill polybar; polybar
+^kill polybar
+polybar 
+ħ
+bash
+polybar 
+bat /etc/nixos/configuration.nix
+polybar 
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/
+ls
+cd Python-Practice/
+ls
+mkdir root2_binary_search
+cd root2_binary_search/
+mkdir src
+cd src/
+python main.py
+sudo nixos-rebuild switch --upgrade-all
+mkdir Programming/Python-Practice/maths_functions_py
+cd Programming/Python-Practice/maths_functions_py
+mkdir src
+cd src/
+python main.py
+nvim main.py
+cd ~/Programming/
+mkdir Bougz-Maths-Py
+cd Bougz-Maths-Py/
+ls
+mkdir src
+cd src/
+mkdir classes
+mkdir functions
+cd classes/
+sudo nixos-rebuild switch --upgrade-all
+cd ~/Programming/Bougz-Maths-Py/src/classes/
+ls
+cd ~/Programming/Bougz-Maths-Py/src/classes/
+nvim Reals.py
+cd ~/Programming/Python-Practice/root2_binary_search/src
+python main.py
+sudo nixos-rebuild switch --upgrade-all
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+fastfetch --gen-confi
+fastfetch --gen-config
+ls Configs/
+mkdir Configs/fastfetch
+bat ~/Configs/fastfetch-config
+fastfetch --separator " <U+F178> " --set-keyless HardwareStart="┌───────── \e[1mHardware Information\e[0m ─────────┐" --set-keyless SoftwareStart="├───────── \e[1mSoftware Information\e[0m ─────────┤" --set-keyless InformationEnd="└────────────────────────────────────────┘" --set-keyless Colors= "\e[38m<U+F111> \e[37m<U+F111> \e[36m<U+F111> \e[35m<U+F111> \e[34m<U+F111> \e[33m<U+F111> \e[32m<U+F111> \e[31m<U+F111>" --structure HardwareStart:Host:CPU:GPU:SoftwareStart:OS:Kernel:WM:Shell:Terminal:TerminalFont:InformationEnd:Colors --host-key "  <U+F233>" --cpu-key "  <U+F2DB>" --gpu-key "  <U+F2DB>" --os-key "  <U+F2DC>"--kernel-key "  <U+F17C>"--wm-key "  <U+F488>"--shell-key "  <U+F489>"--terminal-key "  <U+E795>" --packages-key "  <U+F79F>"
+fastfetch --config examples/x.jsonc
+fastfetch --config examples/1.jsonc
+fastfetch --config examples/2.jsonc
+fastfetch --config examples/3.jsonc
+fastfetch --config examples/4.jsonc
+fastfetch --config examples/5.jsonc
+fastfetch --config examples/6.jsonc
+fastfetch --config examples/7.jsonc
+fastfetch --config examples/8.jsonc
+fastfetch --config examples/9.jsonc
+fastfetch --config examples/10.jsonc
+fastfetch --config examples/11.jsonc
+fastfetch --config examples/12.jsonc
+fastfetch --config examples/13.jsonc
+fastfetch --config examples/14.jsonc
+clear;fastfetch --config examples/2.jsonc
+clear;fastfetch --config examples/6.jsonc
+clear;fastfetch --config examples/7.jsonc
+clear;fastfetch --config examples/12.jsonc
+nvim ~/Configs/fastfetch/config.jsonc
+nvim Scripts/lol-gen-py.nu
+python main.py
+mkdir teach
+cd teach/
+sudo nixos-rebuild switch --upgrade-all
+flatpak list
+exedc nu
+mkdir p_finder_py
+cd p_finder_py/
+python main.py
+cd
+mkdir tausif_algo
+cd tausif_algo/
+python main.py
+sudo nixos-rebuild switch --upgrade-all
+nvim
+sudo nixos-rebuild switch --upgrade-all
+nvim
+sudo nixos-rebuild switch --upgrade-all
+glow `Documents/Markdown/Personal/Post-16 Goals.md`
+bat Documents/Markdown/*/*.md
+bat Documents/Markdown/*/*/*.md
+glow `Documents/Markdown/Personal/Post-16 Goals.md`
+sudo nixos-rebuild switch --upgrade-all
+nvim `Documents/Markdown/Personal/Post-16 Goals.md`
+glow `Documents/Markdown/Personal/Post-16 Goals.md`
+mkdir ezzyboo
+cd ezzyboo
+cd ezzyboo/
+python main.py
+sudo nix-collect-garbage -d
+sudo nixos-rebuild switch --upgrade-all
+config nu --default
+config nu --default | bat shell
+config nu --default | rg shell
+config nu --default | bat
+config nu --default | nvim
+nvim ~/.config/nushell/config.nu
+config nu --default | save --help
+config nu --default | save -f ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+cd Programming/
+cd Python-Practice/
+mkdir fibonacci_py
+python main.py
+cd fibonacci_py/
+python main.py
+sudo nixos-rebuild switch --upgrade-all
+cd Configs
+ls
+cd alacritty/
+nvim alacritty.yml
+cd catppuccin/
+nvim catppuccin-mocha.yml
+cd ../..
+ls
+cd fastfetch/
+nvim config.jsonc
+cd "mtp://SAMSUNG_SAMSUNG_Android_R52M60S6JQF/Tablet/"
+lsblk
+bat /etc/nixos/configuration.nix
+fzf
+nix-shell -p broot
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+gst-inspect-1.0 | grep 265
+sudo nixos-rebuild switch --upgrade-all
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+cd /
+fzf
+ls
+cd bin/
+fzf
+fzfcd
+cd
+cd /
+cd boot/
+fzf
+cd /
+cd etc/
+fzf
+cd /
+cd nix/
+fzf
+cd
+mkdir Configs/awesome
+sudo nixos-rebuild switch --upgrade-all
+bat Configs/polybar/
+sudo nixos-rebuild switch --upgrade-all
+bat Configs/rofi-mpd/config.toml
+bat Configs/rofi/catppuccin-mocha-custom.rasi
+sudo nixos-rebuild switch --upgrade-all
+nvim Configs/polybar/config.ini
+broot
+bat Configs/polybar/config.ini
+sudo nixos-rebuild switch --upgrade-all
+bat Configs/picom/picom.conf
+sudo nixos-rebuild switch --upgrade-all
+cd Programming/Python-Practice/
+mkdir 2_proj_py
+cd 2_proj_py/
+mkdir src tests
+nvim Configs/polybar/config.ini
+cd
+python src/main.py
+nvim Configs/polybar/config.ini
+cd
+cd Programming/Python-Practice/2_proj_py/src/
+python main.py
+cd Programming
+cd Python-Practice
+rm -rf 2_proj_py/
+mkdir Bougz-Form
+cd Bougz-Form/
+mkdir python
+mkdir python/src python/tests
+cd python/src/
+cd ../..
+git init
+cd python/src/
+python main.py
+appimage-run Applications/io.srevinsaju.guiscrcpy.AppImage
+python main.py
+nvim main.py
+“g“b
+print “b“
+print "b"
+python main.py
+sudo nixos-rebuild switch --upgrade-all
+python Programming/Bougz-Form/python/src/main.py
+sudo nix-collect-garbage -d
+nvim Configs/rofi/catppuccin-mocha-custom.rasi
+sudo nix-collect-garbage
+nvim Programming/Bougz-Form/python/src/main.py
+python Programming/Bougz-Form/python/src/main.py
+bat Programming/Bougz-Form/python/src/
+ls Programming/Bougz-Form/python/src/
+python Programming/Bougz-Form/python/tests/test1.py
+sudo nvim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --upgrade-all
+bat /etc/nixos/configuration.nix | rg duck
+cd Programming/BougzOS/
+ls
+cd ..
+mkdir DotFiles
+cd DotFiles/
+git init
+bat ~/Configs/
+ls ~/Configs/
+mkdir .config
+cp ~/Configs/alacritty .config/
+cp ~/Configs/alacritty .config/ -r
+cp ~/Configs/bat .config/ -r
+cp ~/Configs/btop .config/ -r
+cp ~/Configs/conky .config/ -r
+cp ~/Configs/fastfetch .config/ -r
+ls ~/Configs/gitui/
+cp ~/Configs/gitui .config/ -r

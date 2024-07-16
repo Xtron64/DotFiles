@@ -1,0 +1,9 @@
+
+# Path
+source ~/.config/nushell/path.nu
+# Aliases
+source ~/.config/nushell/aliases.nu
+# Enables Starship:
+source ~/.config/nushell/starship-nu-config.nu
+# Startup
+source ~/.config/nushell/startup.nu

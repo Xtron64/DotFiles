@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="parole" version="1.0">
+  <property name="subtitles" type="empty">
+    <property name="font" type="string" value="Minecraftia 11"/>
+  </property>
+  <property name="folders" type="empty">
+    <property name="last-used-media" type="string" value="/home/xtron64/Videos"/>
+  </property>
+  <property name="window" type="empty">
+    <property name="maximized" type="bool" value="true"/>
+    <property name="width" type="int" value="1920"/>
+    <property name="height" type="int" value="908"/>
+  </property>
+  <property name="audio" type="empty">
+    <property name="volume" type="int" value="99"/>
+  </property>
+  <property name="playlist" type="empty">
+    <property name="repeat" type="bool" value="true"/>
+    <property name="shuffle" type="bool" value="true"/>
+  </property>
+</channel>

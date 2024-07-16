@@ -1,0 +1,20 @@
+configuration{
+    modi: "drun,run,window,filebrowser,calc";
+    icon-theme: "Papirus";
+    wfhow-icons: true;
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "  Apps ";
+    display-run: "  Run ";
+    display-window: "  Window";
+    display-Network: "󰤨  Network";
+    display-filebrowser: "  Files";
+    display-calc: "  Calculator";
+    sidebar-mode: true;
+    cycle: true;
+    show-icons: true;
+}
+@theme "/home/xtron64/.local/share/rofi/themes/catppuccin-mocha-custom-1.rasi"
