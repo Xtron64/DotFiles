@@ -15,5 +15,5 @@
 # How to install
 **(within a directory that you're fine putting this repo in)**
 ```bash
-git clone https://github.com/Xtron64/DotFiles && cp Dotfiles/Configs/ ~/.config/ -r
+git clone https://github.com/Xtron64/DotFiles && cp Dotfiles/Configs/* ~/.config/ -r
 ```
